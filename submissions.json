@@ -5402,6 +5402,23 @@
     ],
     "timestamp": "Jul/17/2021 22:24"
   },
+  "CF65571436": {
+    "contest_id": 388,
+    "language": "GNU C++14",
+    "path": "codeforces\\388\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Fox and Box Accumulation",
+    "problem_url": "https://codeforces.com/contest/388/problem/A",
+    "submission_id": "CF65571436",
+    "submission_url": "https://codeforces.com/contest/388/submission/65571436",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Nov/23/2019 13:29"
+  },
   "CF65573225": {
     "contest_id": 9,
     "language": "GNU C++14",
