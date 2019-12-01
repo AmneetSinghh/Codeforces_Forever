@@ -5402,6 +5402,23 @@
     ],
     "timestamp": "Jul/17/2021 22:24"
   },
+  "CF66139708": {
+    "contest_id": 339,
+    "language": "GNU C++14",
+    "path": "codeforces\\339\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Xenia and Bit Operations",
+    "problem_url": "https://codeforces.com/contest/339/problem/D",
+    "submission_id": "CF66139708",
+    "submission_url": "https://codeforces.com/contest/339/submission/66139708",
+    "tags": [
+      "data structures",
+      "trees",
+      "*1700"
+    ],
+    "timestamp": "Dec/01/2019 19:20"
+  },
   "CF66207515": {
     "contest_id": 493,
     "language": "GNU C++14",
