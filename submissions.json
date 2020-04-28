@@ -5402,6 +5402,27 @@
     ],
     "timestamp": "Jul/17/2021 22:24"
   },
+  "CF78350519": {
+    "contest_id": 1342,
+    "language": "GNU C++14",
+    "path": "codeforces\\1342\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Multiple Testcases",
+    "problem_url": "https://codeforces.com/contest/1342/problem/D",
+    "submission_id": "CF78350519",
+    "submission_url": "https://codeforces.com/contest/1342/submission/78350519",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*1900"
+    ],
+    "timestamp": "Apr/28/2020 11:32"
+  },
   "CF78354522": {
     "contest_id": 1339,
     "language": "GNU C++14",
