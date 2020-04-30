@@ -13,6 +13,19 @@ res.push_back('1');
 for(int i=0;i<s.length();i++)
 res.push_back(s[i]);
 
+
+if(s.length()==1)
+cout<<"0\n";
+else if(s.length()==2)
+{
+	if(s[0]==s[1])
+	cout<<"0\n";
+	else
+	cout<<"1\n";
+}
+else
+{
+	
 	int first=1,second=s.length(),count=0;;
 	
 	int check[s.length()+3]={0};
@@ -81,7 +94,7 @@ res.push_back(s[i]);
 	
 	
 	cout<<count<<endl;
- 
+ }
 
 
 
