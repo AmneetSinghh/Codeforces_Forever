@@ -7,6 +7,12 @@ int t;cin>>t;while(t--){
 int n,k;cin>>n>>k;
 string s;
 cin>>s;
+
+vector<char> res;
+res.push_back('1');
+for(int i=0;i<s.length();i++)
+res.push_back(s[i]);
+
 	int first=1,second=s.length(),count=0;;
 	
 	int check[s.length()+3]={0};
@@ -23,6 +29,8 @@ cin>>s;
 			break;
 		}
 		
+		// cout<<"-------start--------- \n";
+		// cout<<first<<"  "<<second<<endl;
 		int i=first;
 		int mx=-1;
 		int hash[28]={0};
@@ -31,25 +39,31 @@ cin>>s;
 		{
 			if(check[i])
 			break;
-			int value=(int)s[i-1];
+			int value=(int)res[i];
 			hash[value-97]++;
 			// max calculate
 			if(mx<hash[value-97])
 			mx=hash[value-97];
+			
+			// cout<<i<<"  "<<res[i]<<"  "<<mx<<"  "<<c+1<<" "<<check[i]+1<<" "<<i+k<<endl;
 			++c;
 			check[i]++;
 			i+=k;
 		}
 		i=second;
 		
+		
+		// cout<<"start->  "<<endl;
 		while(i>=1)
 		{
 			if(check[i])
 			break;
-			int value=(int)s[i-1];
+			int value=(int)res[i];
 			hash[value-97]++;
+			// max calculate
 			if(mx<hash[value-97])
 			mx=hash[value-97];
+			// cout<<i<<"  "<<res[i]<<"  "<<mx<<"  "<<c+1<<" "<<check[i]+1<<" "<<i-k<<endl;
 			++c;
 			check[i]++;
 			i-=k;
