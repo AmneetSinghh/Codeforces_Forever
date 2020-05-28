@@ -5402,6 +5402,24 @@
     ],
     "timestamp": "Jul/17/2021 22:24"
   },
+  "CF81699298": {
+    "contest_id": 1225,
+    "language": "GNU C++14",
+    "path": "codeforces\\1225\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Power Products",
+    "problem_url": "https://codeforces.com/contest/1225/problem/D",
+    "submission_id": "CF81699298",
+    "submission_url": "https://codeforces.com/contest/1225/submission/81699298",
+    "tags": [
+      "hashing",
+      "math",
+      "number theory",
+      "*1800"
+    ],
+    "timestamp": "May/28/2020 16:52"
+  },
   "CF81741028": {
     "contest_id": 1359,
     "language": "GNU C++14",
