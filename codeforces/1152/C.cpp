@@ -143,7 +143,8 @@ void we_have_choices(){/// 4
         if(dif % i == 0)
         {
             v.push_back(i);
-            v.push_back(dif / i);
+            if(i * i != dif)
+                v.push_back(dif / i);
         }
     }
 
@@ -156,7 +157,7 @@ void we_have_choices(){/// 4
         int nr = v[i];
         if(a % nr != b % nr)
             continue;
-        if(a % nr == 0 && b%nr==0)
+        if(a % nr == 0)
         {
             long long pans = (a * b)/__gcd(a, b);
             if(pans < ans)
@@ -164,10 +165,9 @@ void we_have_choices(){/// 4
         }
         else
         {
-            int ko=nr - a % nr;
-            long long pans = ((ko+ a) * (ko+ b))/__gcd((ko + a), (ko+ b));
+            long long pans = ((nr - a % nr + a) * (nr - b % nr + b))/__gcd((nr - a % nr + a), (nr - b % nr + b));
             if(pans < ans)
-                ans = pans, vl =ko;
+                ans = pans, vl = nr - a % nr;
         }
     }
     cout << vl;tr;
