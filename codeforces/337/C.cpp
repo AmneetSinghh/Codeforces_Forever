@@ -18,7 +18,6 @@ int main(){
     CS;
     cin>>n>>m>>k;
     ll b=max((ll)0,(n/k)-(n-m));
-    ll p=(((power(2,b+1)-2+mod)%mod)*k)%mod;
-    cout<<(p+(m-b*k)%mod)%mod;// this is the general formula babe
+    cout<<((power(2,b)*2-2)*k+m-b*k)%mod;
     return 0;
 }
