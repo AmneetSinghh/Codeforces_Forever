@@ -5402,6 +5402,22 @@
     ],
     "timestamp": "Jul/17/2021 22:24"
   },
+  "CF83863477": {
+    "contest_id": 53,
+    "language": "GNU C++14",
+    "path": "codeforces\\53\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Little Frog",
+    "problem_url": "https://codeforces.com/contest/53/problem/C",
+    "submission_id": "CF83863477",
+    "submission_url": "https://codeforces.com/contest/53/submission/83863477",
+    "tags": [
+      "constructive algorithms",
+      "*1200"
+    ],
+    "timestamp": "Jun/15/2020 22:31"
+  },
   "CF83866935": {
     "contest_id": 1157,
     "language": "GNU C++14",
