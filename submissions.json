@@ -5402,6 +5402,27 @@
     ],
     "timestamp": "Jul/17/2021 22:24"
   },
+  "CF84134738": {
+    "contest_id": 1367,
+    "language": "GNU C++14",
+    "path": "codeforces\\1367\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Necklace Assembly",
+    "problem_url": "https://codeforces.com/contest/1367/problem/E",
+    "submission_id": "CF84134738",
+    "submission_url": "https://codeforces.com/contest/1367/submission/84134738",
+    "tags": [
+      "brute force",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "greedy",
+      "number theory",
+      "*1900"
+    ],
+    "timestamp": "Jun/18/2020 12:55"
+  },
   "CF84143918": {
     "contest_id": 121,
     "language": "GNU C++14",
