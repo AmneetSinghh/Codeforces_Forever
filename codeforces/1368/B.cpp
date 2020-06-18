@@ -168,9 +168,28 @@ int  getC(int n, int i) {
 void we_have_choices()
 {
 int n;cin>>n;
+int first=-1,second=0;
+int c=0;
 string co="codeforces";
-int d=10;
-    int first=1,second=2;
+while(c<=10)
+{
+   if(pow(2,c)>=n){
+    first=c;break;}
+    ++c;
+}
+
+
+if(first!=-1){int i;
+for(i=0;i<co.length()-c;i++)
+cout<<co[i];
+while(i<co.length())
+{cout<<co[i]<<co[i];++i;}
+}
+
+else
+{
+    int d=10;
+    first=2,second=3;
     while(true)
     {
         if(pow(first,d)*pow(second,10-d)>=n)
@@ -193,6 +212,7 @@ int d=10;
         ++i;
      }
 
+}
 }
 
    
