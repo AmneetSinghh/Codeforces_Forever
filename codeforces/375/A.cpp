@@ -1,14 +1,21 @@
-#include <cstdio>
-int a[10], c, i, s[7] = {1869, 6198, 1896, 1689, 1986, 1968, 1698};
+# include <bits/stdc++.h>
+ 
+using namespace std;
+ 
 int main(){
-    while((i = getchar()) != '\n')
-        ++ a[i - 48];
-    -- a[1], -- a[6], -- a[8], -- a[9];
-    for (i=1;i <= 9;i++)
-        while(a[i]--)
-            c = (c * 10 + i) % 7, printf("%d", i);
-    printf("%d", s[c]);
-    while(a[0]--)
-        printf("0");
+    string s;
+    cin >> s;
+    int cnt = 100;
+    while(cnt--){
+        int n = 0;
+        for (int i = 0; i < s.size(); i++)
+            n = (n * 10 + (s[i] - '0')) % 7;
+        if(n == 0 && s[0] != '0'){
+            cout << s << endl;
+            return 0;
+        }
+        next_permutation(s.begin(), s.end());
+    }
+    cout << "0" << endl;
     return 0;
 }
