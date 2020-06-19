@@ -5402,6 +5402,22 @@
     ],
     "timestamp": "Jul/17/2021 22:24"
   },
+  "CF84340624": {
+    "contest_id": 330,
+    "language": "GNU C++14",
+    "path": "codeforces\\330\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Purification",
+    "problem_url": "https://codeforces.com/contest/330/problem/C",
+    "submission_id": "CF84340624",
+    "submission_url": "https://codeforces.com/contest/330/submission/84340624",
+    "tags": [
+      "matrices",
+      "*1500"
+    ],
+    "timestamp": "Jun/19/2020 21:10"
+  },
   "CF84344832": {
     "contest_id": 261,
     "language": "GNU C++14",
