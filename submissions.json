@@ -5402,6 +5402,24 @@
     ],
     "timestamp": "Jul/17/2021 22:24"
   },
+  "CF84461431": {
+    "contest_id": 1370,
+    "language": "GNU C++14",
+    "path": "codeforces\\1370\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "GCD Compression",
+    "problem_url": "https://codeforces.com/contest/1370/problem/B",
+    "submission_id": "CF84461431",
+    "submission_url": "https://codeforces.com/contest/1370/submission/84461431",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Jun/20/2020 20:47"
+  },
   "CF84495047": {
     "contest_id": 1370,
     "language": "GNU C++14",
