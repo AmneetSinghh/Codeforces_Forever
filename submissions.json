@@ -5402,6 +5402,23 @@
     ],
     "timestamp": "Jul/17/2021 22:24"
   },
+  "CF84404117": {
+    "contest_id": 107,
+    "language": "GNU C++14",
+    "path": "codeforces\\107\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Dorm Water Supply",
+    "problem_url": "https://codeforces.com/contest/107/problem/A",
+    "submission_id": "CF84404117",
+    "submission_url": "https://codeforces.com/contest/107/submission/84404117",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "*1400"
+    ],
+    "timestamp": "Jun/20/2020 15:56"
+  },
   "CF84429526": {
     "contest_id": 1370,
     "language": "GNU C++14",
