@@ -172,11 +172,11 @@ bool check(int less,int start)
 {
     int len=0;
     F(i,n){
-        if(!start)++len,start^=1;// nex
+        if(!start)++len,start^=1;
         else
         {
             if(a[i]<=less)
-                ++len,start^=1;// next we not baby bro
+                ++len,start^=1;
         }
     }
 
