@@ -5402,6 +5402,22 @@
     ],
     "timestamp": "Jul/17/2021 22:24"
   },
+  "CF84397409": {
+    "contest_id": 154,
+    "language": "GNU C++14",
+    "path": "codeforces\\154\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Hometask",
+    "problem_url": "https://codeforces.com/contest/154/problem/A",
+    "submission_id": "CF84397409",
+    "submission_url": "https://codeforces.com/contest/154/submission/84397409",
+    "tags": [
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Jun/20/2020 14:27"
+  },
   "CF84404076": {
     "contest_id": 108,
     "language": "GNU C++14",
