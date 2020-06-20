@@ -5402,6 +5402,24 @@
     ],
     "timestamp": "Jul/17/2021 22:24"
   },
+  "CF84394176": {
+    "contest_id": 204,
+    "language": "GNU C++14",
+    "path": "codeforces\\204\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Little Elephant and Interval",
+    "problem_url": "https://codeforces.com/contest/204/problem/A",
+    "submission_id": "CF84394176",
+    "submission_url": "https://codeforces.com/contest/204/submission/84394176",
+    "tags": [
+      "binary search",
+      "combinatorics",
+      "dp",
+      "*1500"
+    ],
+    "timestamp": "Jun/20/2020 13:44"
+  },
   "CF84397409": {
     "contest_id": 154,
     "language": "GNU C++14",
