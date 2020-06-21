@@ -172,6 +172,7 @@ void dfs(int s,bool vis[])
 
 void dijkstra(int src) 
 { 
+
     priority_queue< ipair, vector <ipair> , greater<ipair> > pq; 
     pq.push(make_pair(0, src));
     while (!pq.empty()) 
@@ -206,7 +207,7 @@ F(i,m)
     cin>>u>>v>>w;
     if(back[u]==back[v] && w!=0)continue;
     if(w==0)graph[u].pb(v),graph[v].pb(u);
-    G[back[u]].pb({back[v],w}),G[back[v]].pb({back[u],w});
+     if(back[u]!=back[v])G[back[u]].pb({back[v],w}),G[back[v]].pb({back[u],w});
 }
 
 int flag=0;
@@ -224,6 +225,7 @@ for(int i=1;i<=k;i++)
 
     }
 }
+
 if(flag)cout<<"No\n";
 else
 {
@@ -236,7 +238,11 @@ F(i,k)
 {
     F(j,k)cout<<ans[i][j]<<" ";
     tr;
-}}
+}
+
+
+}
+
 }
 
 
