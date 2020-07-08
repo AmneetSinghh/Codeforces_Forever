@@ -40,7 +40,7 @@ int main() {
 
     f[0][0]=1;
     rep(i,0,cc) rep(side,0,2)
-        for (int j=0,en=T[i+1][side].size();j<=n2;j++){
+        for (int j=0,en=T[i+1][side].size();j<=n-en;j++){
             if (f[i][j])
                 f[i+1][j+en]=1,pre[i+1][j+en]=side;
     }
