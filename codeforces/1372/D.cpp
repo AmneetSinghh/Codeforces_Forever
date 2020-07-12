@@ -173,13 +173,13 @@ so that we can get the mod divide by 7 is 0,1,2,3,4,5,6
  
  
 void we_have_choices(){
- 
+
 int n;
 cin>>n;
 int a[n+1];
 F(i,n)cin>>a[i];
 /// val-1 + sum of values n-1 subarray baby
- 
+
 if(n==1){cout<<a[1];return;}
 int b[n+1],index[n+1];
 int j=1;
@@ -188,28 +188,27 @@ for(int i=1;i<=n;i+=2)
 b[j]=a[i]+b[j-1],index[j]=i,j++;
 for(int i=2;i<=n;i+=2)
 b[j]=a[i]+b[j-1],index[j]=i,j++;
- 
+
 int k=((n+1)/2)-1;
 int ans=0;
- 
+
 for(int i=1;i<=n;i++)
 {
     int prev=0;
      if(i==1)
         prev=a[n];
     else prev=a[index[i]-1];
- 
+
     int current=0;
     if(i+k-1<=n)
     current=prev+(b[i+k-1]-b[i-1]);
     else
     current=prev+(b[n]-b[i-1])+b[(i+k-1)%n];
- 
+
 ans=max(ans,current);
 }
- 
+
 cout<<ans;
- 
 
 }
  
