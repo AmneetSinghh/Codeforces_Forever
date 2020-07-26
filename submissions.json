@@ -5402,6 +5402,22 @@
     ],
     "timestamp": "Jul/17/2021 22:24"
   },
+  "CF88083596": {
+    "contest_id": 1068,
+    "language": "GNU C++14",
+    "path": "codeforces\\1068\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Birthday",
+    "problem_url": "https://codeforces.com/contest/1068/problem/A",
+    "submission_id": "CF88083596",
+    "submission_url": "https://codeforces.com/contest/1068/submission/88083596",
+    "tags": [
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Jul/27/2020 01:22"
+  },
   "CF88173734": {
     "contest_id": 1067,
     "language": "GNU C++14",
