@@ -37,26 +37,21 @@ void we_have_choices()
 {
   cin>>s;
   vector<int> pre=prefix_function(s);
+  // now we have to check baby
+  map<int,int> h;
+  for(auto sd:pre)h[sd]++;
+  h[pre.back()]--;
 int ct = 0, cur = pre.back();
-if(pre.back()==0){cout << "Just a legend";return;}
-else
-{
-
-    for(int i=1;i<s.length()-1;i++)
-    {
-        if(pre[i]==pre.back()){cout<<s.substr(0,pre[i]);return;}
+    
+    while (cur) {
+        ct += h[cur];        
+        if (ct) {
+            cout << s.substr(0, cur) << endl;
+            return;
+        }
+        cur = pre[cur - 1];
     }
-
-    if(pre[pre.back()-1])
-    {
-        cout<<s.substr(0,pre[pre.back()-1]);
-        return;
-    }
-}
-
-
-
-cout << "Just a legend" << endl;
+    cout << "Just a legend" << endl;
 
 
 }
