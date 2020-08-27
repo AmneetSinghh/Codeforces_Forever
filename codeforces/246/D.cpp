@@ -36,9 +36,8 @@ int color=0;
 F(i,n)
 {
 	int s=G[c[i]].size();
-		if(G[c[i]].size()==mx  && color>c[i])color=c[i];
-
 	if(G[c[i]].size()>mx)mx=G[c[i]].size(),color=c[i];
+	if(G[c[i]].size()==mx  && color>c[i])color=c[i];
 }
 cout<<color;
 tr;
