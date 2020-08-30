@@ -32,7 +32,7 @@ void Pencho()
 		for(int j=i;j<s.size();j++){
 		  if(t[s[j]-'a']=='0')++c;
 		  if(c>k)break;
-          res=res*91+s[j];
+          res=res*117+s[j];
           unique[j-i+1].insert(res);
 		}
 
