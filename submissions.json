@@ -5402,6 +5402,22 @@
     ],
     "timestamp": "Jul/17/2021 22:24"
   },
+  "CF91346613": {
+    "contest_id": 269,
+    "language": "GNU C++14",
+    "path": "codeforces\\269\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Greenhouse Effect",
+    "problem_url": "https://codeforces.com/contest/269/problem/B",
+    "submission_id": "CF91346613",
+    "submission_url": "https://codeforces.com/contest/269/submission/91346613",
+    "tags": [
+      "dp",
+      "*1700"
+    ],
+    "timestamp": "Aug/30/2020 19:10"
+  },
   "CF91452396": {
     "contest_id": 1397,
     "language": "GNU C++14",
