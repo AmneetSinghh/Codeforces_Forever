@@ -5402,6 +5402,23 @@
     ],
     "timestamp": "Jul/17/2021 22:24"
   },
+  "CF91452396": {
+    "contest_id": 1397,
+    "language": "GNU C++14",
+    "path": "codeforces\\1397\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Juggling Letters",
+    "problem_url": "https://codeforces.com/contest/1397/problem/A",
+    "submission_id": "CF91452396",
+    "submission_url": "https://codeforces.com/contest/1397/submission/91452396",
+    "tags": [
+      "greedy",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Aug/31/2020 09:15"
+  },
   "CF91454378": {
     "contest_id": 1397,
     "language": "GNU C++14",
