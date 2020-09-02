@@ -33,22 +33,16 @@ using namespace std;
 int dp[200005];
 void Waheguru()
 {
-int r,g,level;
-cin>>r>>g;
-for(int i=1;i*(i+1)/2<=r+g;i++)level=i;
-dp[0]=1;
-for(int i=1;i<=level;i++)
-for(int j=r;j>=i;j--)
-(dp[j] += dp[j-i]) %= mod;
-
-
-int ans=0;
-int as=(level*(level+1))/2;
-for(int i=0;i<=r;i++)
-if(as-i<=g)(ans += dp[i]) %= mod;
-
-cout<<ans;
-tr;
+int r,g,h;
+	cin >> r >> g;
+	for(int i=1;i*(i+1)/2<=r+g;i++) h=i;
+	dp[0] = 1;
+	for(int i=1;i<=h;i++)
+		for(int j=r;j>=i;j--)
+			(dp[j] += dp[j-i]) %= mod;
+	int ans = 0;
+	for(int i=0;i<=r;i++) if(h*(h+1)/2-i <= g) (ans += dp[i]) %= mod;
+	cout << ans;
 }
  
  
