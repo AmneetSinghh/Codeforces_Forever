@@ -5402,6 +5402,24 @@
     ],
     "timestamp": "Jul/17/2021 22:24"
   },
+  "CF93140505": {
+    "contest_id": 321,
+    "language": "GNU C++14",
+    "path": "codeforces\\321\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Ciel and Duel",
+    "problem_url": "https://codeforces.com/contest/321/problem/B",
+    "submission_id": "CF93140505",
+    "submission_url": "https://codeforces.com/contest/321/submission/93140505",
+    "tags": [
+      "dp",
+      "flows",
+      "greedy",
+      "*1900"
+    ],
+    "timestamp": "Sep/18/2020 23:04"
+  },
   "CF93177952": {
     "contest_id": 406,
     "language": "GNU C++14",
