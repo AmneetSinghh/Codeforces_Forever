@@ -1,4 +1,21 @@
 {
+  "CF110573025": {
+    "contest_id": 873,
+    "language": "GNU C++14",
+    "path": "codeforces\\873\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Merge Sort",
+    "problem_url": "https://codeforces.com/contest/873/problem/D",
+    "submission_id": "CF110573025",
+    "submission_url": "https://codeforces.com/contest/873/submission/110573025",
+    "tags": [
+      "constructive algorithms",
+      "divide and conquer",
+      "*1800"
+    ],
+    "timestamp": "Mar/21/2021 02:41"
+  },
   "CF110626680": {
     "contest_id": 1484,
     "language": "GNU C++14",
