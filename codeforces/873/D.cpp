@@ -16,7 +16,6 @@ using namespace std;
 const int maxn=100005;
 
 int k;
-// lets
 
 void merge(int a[],int l,int mid,int r){
    std::vector<int> vc;
