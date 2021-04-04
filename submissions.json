@@ -1,4 +1,26 @@
 {
+  "CF111994297": {
+    "contest_id": 1504,
+    "language": "GNU C++14",
+    "path": "codeforces\\1504\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Travelling Salesman Problem",
+    "problem_url": "https://codeforces.com/contest/1504/problem/E",
+    "submission_id": "CF111994297",
+    "submission_url": "https://codeforces.com/contest/1504/submission/111994297",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "graphs",
+      "greedy",
+      "shortest paths",
+      "sortings",
+      "*2200"
+    ],
+    "timestamp": "Apr/04/2021 16:42"
+  },
   "CF112053584": {
     "contest_id": 650,
     "language": "GNU C++14",
