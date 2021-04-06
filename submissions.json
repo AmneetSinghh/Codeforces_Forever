@@ -1,4 +1,23 @@
 {
+  "CF112129692": {
+    "contest_id": 134,
+    "language": "GNU C++14",
+    "path": "codeforces\\134\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Pairs of Numbers",
+    "problem_url": "https://codeforces.com/contest/134/problem/B",
+    "submission_id": "CF112129692",
+    "submission_url": "https://codeforces.com/contest/134/submission/112129692",
+    "tags": [
+      "brute force",
+      "dfs and similar",
+      "math",
+      "number theory",
+      "*1900"
+    ],
+    "timestamp": "Apr/06/2021 13:11"
+  },
   "CF112147243": {
     "contest_id": 144,
     "language": "GNU C++14",
