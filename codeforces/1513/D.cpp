@@ -100,8 +100,6 @@ for(auto sd:vc){
   int r=sd.second;
   // till the left;
   int gc=sd.first;
-  
-  // if the curren is not visited, do at least, one edge, brother
   while(present[l]==0 && l-1>=1 && gcd(a[l-1],gc)==sd.first)gc=gcd(a[l-1],gc),--l,edges.pb({sd.first,{sd.second,l}});
   gc=sd.first;
   while(present[r]==0 && r+1<=n && gcd(a[r+1],gc)==sd.first)gc=gcd(a[r+1],gc),++r,edges.pb({sd.first,{sd.second,r}});
