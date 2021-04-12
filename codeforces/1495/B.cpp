@@ -32,6 +32,8 @@ F(i,n)cin>>a[i],store[a[i]]=i;
 int ans=0;
 map<int,int> maxx;
 map<int,int> two;
+map<int,int> one;
+vector<int> vc[n+1];
 
 // find the vacancies; or I can say the number of the elements;
 
@@ -50,6 +52,7 @@ for(int i=n;i>=1;i--){
   int ss=min(ind-l,r-ind);
   if(ff>0)maxx[ff]++;
   if(ss>0)maxx[ss]++;
+  if(ff>0 && ss>0)one[ff]++,vc[ff].pb(ss);
   if(ff==ss && ff>0)two[ff]++;
 }
 int hiring=0;
@@ -58,6 +61,10 @@ for(auto sd:maxx){
 hiring=sd.first;
 mx=sd.second;
 }
+
+
+
+
 
 
 if(hiring>0){
