@@ -99,10 +99,8 @@ for(auto sd:vc){
   int l=sd.second;
   int r=sd.second;
   // till the left;
-  int gc=sd.first;
-  while(present[l]==0 && l-1>=1 && gcd(a[l-1],gc)==sd.first)gc=gcd(a[l-1],gc),--l,edges.pb({sd.first,{sd.second,l}});
-  gc=sd.first;
-  while(present[r]==0 && r+1<=n && gcd(a[r+1],gc)==sd.first)gc=gcd(a[r+1],gc),++r,edges.pb({sd.first,{sd.second,r}});
+  while(present[l]==0 && l-1>=1 && gcd(a[l-1],sd.first)==sd.first)--l,edges.pb({sd.first,{sd.second,l}});
+  while(present[r]==0 && r+1<=n && gcd(a[r+1],sd.first)==sd.first)++r,edges.pb({sd.first,{sd.second,r}});
   for(int i=l;i<=r;i++)present[i]=1;
 }
 
