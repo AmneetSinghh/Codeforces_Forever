@@ -17,20 +17,6 @@
 using namespace std; 
 const int maxn=100005;
 //implemetn kruskals;
-
-int gcd(int a, int  b)
-{
-  if (b == 0)
-    return a;
-  return gcd(b, a % b);
-}
- 
-// Function to return LCM of two numbers 
-int  lcm(int a, int b)
-{
-    return (a / gcd(a, b)) * b;
-}
-  
 vector<pair<int,ipair> >  edges;
 // To represent Disjoint Sets
 struct DisjointSets
@@ -100,8 +86,8 @@ for(auto sd:vc){
   int l=sd.second;
   int r=sd.second;
   // till the left;
-  while(present[l]==0 && l-1>=1 && gcd(a[l-1],sd.first)==sd.first)--l,edges.pb({sd.first,{sd.second,l}});
-  while(present[r]==0 && r+1<=n && gcd(a[r+1],sd.first)==sd.first)++r,edges.pb({sd.first,{sd.second,r}});
+  while(present[l]==0 && l-1>=1 && a[l-1]%sd.first==0)--l,edges.pb({sd.first,{sd.second,l}});
+  while(present[r]==0 && r+1<=n && a[r+1]%sd.first==0)++r,edges.pb({sd.first,{sd.second,r}});
   for(int i=l;i<=r;i++)present[i]=1;
 }
 
