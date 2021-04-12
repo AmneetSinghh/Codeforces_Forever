@@ -30,7 +30,7 @@ int  lcm(int a, int b)
 {
     return (a / gcd(a, b)) * b;
 }
-
+  
 vector<pair<int,ipair> >  edges;
 // To represent Disjoint Sets
 struct DisjointSets
@@ -96,6 +96,7 @@ for(int i=1;i<=n-1;i++)edges.pb({p,{i,i+1}});
 sort(all(vc));
 int present[n+1]={0};
 for(auto sd:vc){
+  if(sd.first>=p)break;
   int l=sd.second;
   int r=sd.second;
   // till the left;
