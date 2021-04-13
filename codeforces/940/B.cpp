@@ -24,6 +24,7 @@ cin>>n>>k>>a>>b;
 int cost=0;
 if(k==1){cout<<(n-1)*a;return;}
 if(n<k){cout<<(n-1)*a;return;}
+int gb_min=inf;
 while(n>1){
 
   if(n<k){cost+=((n-1)*a);break;}
@@ -31,13 +32,21 @@ while(n>1){
   int rem=n%k;
   n-=rem;
   cost+=(rem*a);
+  gb_min=min(cost+(n-k)*a+b,gb_min);
+   gb_min=min(cost+(n-1)*a,gb_min);
+  /// check can we make him k?
+
   cost+=min(b,(n-val)*a);
 n/=k;
 
+
+
+  // cout<<n<<" "<<cost;
+  // tr;
 }
 
 
-cout<<cost;
+cout<<min(cost,gb_min);
 tr;
 
 }
