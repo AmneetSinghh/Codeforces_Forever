@@ -1,4 +1,22 @@
 {
+  "CF112899234": {
+    "contest_id": 940,
+    "language": "GNU C++14",
+    "path": "codeforces\\940\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Points on the line",
+    "problem_url": "https://codeforces.com/contest/940/problem/A",
+    "submission_id": "CF112899234",
+    "submission_url": "https://codeforces.com/contest/940/submission/112899234",
+    "tags": [
+      "brute force",
+      "greedy",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Apr/13/2021 12:32"
+  },
   "CF112904062": {
     "contest_id": 940,
     "language": "GNU C++14",
