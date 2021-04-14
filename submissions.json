@@ -1,4 +1,21 @@
 {
+  "CF113041559": {
+    "contest_id": 1162,
+    "language": "GNU C++14",
+    "path": "codeforces\\1162\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Hide and Seek",
+    "problem_url": "https://codeforces.com/contest/1162/problem/C",
+    "submission_id": "CF113041559",
+    "submission_url": "https://codeforces.com/contest/1162/submission/113041559",
+    "tags": [
+      "graphs",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Apr/15/2021 01:21"
+  },
   "CF113186443": {
     "contest_id": 1509,
     "language": "GNU C++14",
