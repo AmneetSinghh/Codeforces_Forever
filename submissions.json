@@ -1,4 +1,22 @@
 {
+  "CF114757594": {
+    "contest_id": 750,
+    "language": "GNU C++14",
+    "path": "codeforces\\750\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "New Year and Rating",
+    "problem_url": "https://codeforces.com/contest/750/problem/C",
+    "submission_id": "CF114757594",
+    "submission_url": "https://codeforces.com/contest/750/submission/114757594",
+    "tags": [
+      "binary search",
+      "greedy",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "May/01/2021 14:03"
+  },
   "CF114766343": {
     "contest_id": 1144,
     "language": "GNU C++14",
