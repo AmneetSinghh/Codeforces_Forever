@@ -1,4 +1,20 @@
 {
+  "CF115089388": {
+    "contest_id": 1141,
+    "language": "GNU C++14",
+    "path": "codeforces\\1141\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Maximal Continuous Rest",
+    "problem_url": "https://codeforces.com/contest/1141/problem/B",
+    "submission_id": "CF115089388",
+    "submission_url": "https://codeforces.com/contest/1141/submission/115089388",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "May/04/2021 11:00"
+  },
   "CF115098764": {
     "contest_id": 1141,
     "language": "GNU C++14",
