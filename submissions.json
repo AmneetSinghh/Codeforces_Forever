@@ -1,4 +1,21 @@
 {
+  "CF115098764": {
+    "contest_id": 1141,
+    "language": "GNU C++14",
+    "path": "codeforces\\1141\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Colored Boots",
+    "problem_url": "https://codeforces.com/contest/1141/problem/D",
+    "submission_id": "CF115098764",
+    "submission_url": "https://codeforces.com/contest/1141/submission/115098764",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "May/04/2021 12:42"
+  },
   "CF115107308": {
     "contest_id": 1141,
     "language": "GNU C++14",
