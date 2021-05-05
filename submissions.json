@@ -1,4 +1,23 @@
 {
+  "CF115360482": {
+    "contest_id": 1520,
+    "language": "GNU C++14",
+    "path": "codeforces\\1520\\F2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F2",
+    "problem_name": "Guess the K-th Zero (Hard version)",
+    "problem_url": "https://codeforces.com/contest/1520/problem/F2",
+    "submission_id": "CF115360482",
+    "submission_url": "https://codeforces.com/contest/1520/submission/115360482",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "interactive",
+      "*2200"
+    ],
+    "timestamp": "May/06/2021 04:04"
+  },
   "CF115570664": {
     "contest_id": 1521,
     "language": "GNU C++14",
