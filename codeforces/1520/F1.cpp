@@ -11,6 +11,7 @@ using namespace std;
 
 int ask(int mid){
   cout << "? " << 1 << " " << mid << endl;
+  cout.flush();
   int val;
   cin>>val;
   return val;
@@ -26,19 +27,28 @@ while(t--){
 int n,k,t;
 cin>>n>>t;
 cin>>k;
+cout.flush();
 int l=1,r=n,ans=1;
 while(l<=r)
 {
      int mid=(l+r)/2;
      int get=ask(mid);
+
      if(mid-get>=k){
-      ans=mid;// this means, we hae at least this onees;
+      ans=mid;
       r=mid-1;
      }
      else l=mid+1;
+     // if(get<k)l=mid+1;
+     // else if(get>k)r=mid-1;
+     // else if(get==k){
+     //  ans=mid;
+     //  r=mid-1;
+     // }
 }
 
 cout << "! " << ans << endl;
+cout.flush();
 return 0;
 
 
