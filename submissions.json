@@ -1,4 +1,21 @@
 {
+  "CF115715259": {
+    "contest_id": 1468,
+    "language": "GNU C++14",
+    "path": "codeforces\\1468\\K.cpp",
+    "platform": "Codeforces",
+    "problem_index": "K",
+    "problem_name": "The Robot",
+    "problem_url": "https://codeforces.com/contest/1468/problem/K",
+    "submission_id": "CF115715259",
+    "submission_url": "https://codeforces.com/contest/1468/submission/115715259",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "May/08/2021 20:29"
+  },
   "CF115775682": {
     "contest_id": 1472,
     "language": "GNU C++14",
