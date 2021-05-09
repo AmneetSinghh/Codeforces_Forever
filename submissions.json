@@ -1,4 +1,20 @@
 {
+  "CF115814518": {
+    "contest_id": 1093,
+    "language": "GNU C++14",
+    "path": "codeforces\\1093\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Mishka and the Last Exam",
+    "problem_url": "https://codeforces.com/contest/1093/problem/C",
+    "submission_id": "CF115814518",
+    "submission_url": "https://codeforces.com/contest/1093/submission/115814518",
+    "tags": [
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "May/10/2021 00:40"
+  },
   "CF115816598": {
     "contest_id": 1093,
     "language": "GNU C++14",
