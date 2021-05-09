@@ -8,6 +8,20 @@
 #define INF 1e18
 using namespace std;
 #define MAXN   1004
+
+
+bool comp(const pair<int,ipair> &a,const pair<int,ipair> &b)
+{
+    if(a.first<b.first)return true;
+    if(a.first>b.first)return false;
+    if(a.first==b.first)
+    {
+      if(a.second.first<b.second.first)return true;
+    }
+    return false;
+}
+
+
 int32_t main() 
 {
 int t=1;
@@ -52,7 +66,7 @@ s.insert({c.first,{c.second.second,c.second.first}});
 
 int mi=INF;
 int ind=-1;
-sort(vc.begin(),vc.end());
+sort(vc.begin(),vc.end(),comp);
 int dp[vc.size()+1];
 
 
