@@ -1,4 +1,23 @@
 {
+  "CF115876020": {
+    "contest_id": 1098,
+    "language": "GNU C++14",
+    "path": "codeforces\\1098\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Sum in the tree",
+    "problem_url": "https://codeforces.com/contest/1098/problem/A",
+    "submission_id": "CF115876020",
+    "submission_url": "https://codeforces.com/contest/1098/submission/115876020",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "greedy",
+      "trees",
+      "*1600"
+    ],
+    "timestamp": "May/10/2021 20:36"
+  },
   "CF115879968": {
     "contest_id": 1111,
     "language": "GNU C++14",
