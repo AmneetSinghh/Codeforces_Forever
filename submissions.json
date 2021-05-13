@@ -1,4 +1,21 @@
 {
+  "CF116139273": {
+    "contest_id": 1175,
+    "language": "GNU C++14",
+    "path": "codeforces\\1175\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "From Hero to Zero",
+    "problem_url": "https://codeforces.com/contest/1175/problem/A",
+    "submission_id": "CF116139273",
+    "submission_url": "https://codeforces.com/contest/1175/submission/116139273",
+    "tags": [
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "timestamp": "May/14/2021 03:15"
+  },
   "CF116140324": {
     "contest_id": 1175,
     "language": "GNU C++14",
