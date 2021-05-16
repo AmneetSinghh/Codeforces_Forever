@@ -9,7 +9,7 @@
 using namespace std;
 #define MAXN   1010
 
-//sdf
+
 int32_t main() 
 {
 ios_base::sync_with_stdio(false);

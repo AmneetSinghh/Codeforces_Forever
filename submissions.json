@@ -1,4 +1,23 @@
 {
+  "CF116427917": {
+    "contest_id": 67,
+    "language": "GNU C++14",
+    "path": "codeforces\\67\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Partial Teacher",
+    "problem_url": "https://codeforces.com/contest/67/problem/A",
+    "submission_id": "CF116427917",
+    "submission_url": "https://codeforces.com/contest/67/submission/116427917",
+    "tags": [
+      "dp",
+      "graphs",
+      "greedy",
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "May/16/2021 23:39"
+  },
   "CF116498857": {
     "contest_id": 67,
     "language": "GNU C++14",
