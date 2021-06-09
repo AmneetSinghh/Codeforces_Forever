@@ -1,4 +1,22 @@
 {
+  "CF118902521": {
+    "contest_id": 1536,
+    "language": "GNU C++14",
+    "path": "codeforces\\1536\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Omkar and Medians",
+    "problem_url": "https://codeforces.com/contest/1536/problem/D",
+    "submission_id": "CF118902521",
+    "submission_url": "https://codeforces.com/contest/1536/submission/118902521",
+    "tags": [
+      "data structures",
+      "greedy",
+      "implementation",
+      "*2000"
+    ],
+    "timestamp": "Jun/09/2021 21:42"
+  },
   "CF118922345": {
     "contest_id": 1206,
     "language": "GNU C++14",
