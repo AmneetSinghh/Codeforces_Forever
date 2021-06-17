@@ -1,4 +1,20 @@
 {
+  "CF119715335": {
+    "contest_id": 1140,
+    "language": "GNU C++14",
+    "path": "codeforces\\1140\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Detective Book",
+    "problem_url": "https://codeforces.com/contest/1140/problem/A",
+    "submission_id": "CF119715335",
+    "submission_url": "https://codeforces.com/contest/1140/submission/119715335",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Jun/17/2021 18:41"
+  },
   "CF119716241": {
     "contest_id": 1140,
     "language": "GNU C++14",
