@@ -1,4 +1,21 @@
 {
+  "CF119764480": {
+    "contest_id": 1166,
+    "language": "GNU C++14",
+    "path": "codeforces\\1166\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Silent Classroom",
+    "problem_url": "https://codeforces.com/contest/1166/problem/A",
+    "submission_id": "CF119764480",
+    "submission_url": "https://codeforces.com/contest/1166/submission/119764480",
+    "tags": [
+      "combinatorics",
+      "greedy",
+      "*900"
+    ],
+    "timestamp": "Jun/18/2021 12:09"
+  },
   "CF119766348": {
     "contest_id": 1166,
     "language": "GNU C++14",
