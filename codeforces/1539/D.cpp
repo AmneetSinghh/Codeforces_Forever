@@ -34,6 +34,15 @@ void db(int a, int b, int c, int d, int e, int f, int g, int h) {
 }
 
 
+bool comp(pair<int, int> &a, pair<int, int> &b) {
+    if (a.first < b.first)return true;
+    if (a.first == b.first) {
+        if (a.second > b.second)return true;
+    }
+    return false;
+}
+
+
 int32_t main() {
     io;
     int t = 1;
@@ -52,7 +61,7 @@ int32_t main() {
         }
 
 
-        sort(vc.begin(), vc.end());
+        sort(vc.begin(), vc.end(), comp);
         int i = 0;
         int j = vc.size() - 1;
         int res = 0;
