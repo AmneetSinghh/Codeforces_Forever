@@ -1,4 +1,20 @@
 {
+  "CF120287264": {
+    "contest_id": 1000,
+    "language": "GNU C++14",
+    "path": "codeforces\\1000\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Light It Up",
+    "problem_url": "https://codeforces.com/contest/1000/problem/B",
+    "submission_id": "CF120287264",
+    "submission_url": "https://codeforces.com/contest/1000/submission/120287264",
+    "tags": [
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Jun/22/2021 17:20"
+  },
   "CF120349920": {
     "contest_id": 835,
     "language": "GNU C++14",
