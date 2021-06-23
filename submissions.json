@@ -1,4 +1,21 @@
 {
+  "CF120349920": {
+    "contest_id": 835,
+    "language": "GNU C++14",
+    "path": "codeforces\\835\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Star sky",
+    "problem_url": "https://codeforces.com/contest/835/problem/C",
+    "submission_id": "CF120349920",
+    "submission_url": "https://codeforces.com/contest/835/submission/120349920",
+    "tags": [
+      "dp",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Jun/23/2021 13:54"
+  },
   "CF120353318": {
     "contest_id": 1020,
     "language": "GNU C++14",
