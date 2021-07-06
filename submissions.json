@@ -1,4 +1,22 @@
 {
+  "CF121445078": {
+    "contest_id": 861,
+    "language": "GNU C++14",
+    "path": "codeforces\\861\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Did you mean...",
+    "problem_url": "https://codeforces.com/contest/861/problem/C",
+    "submission_id": "CF121445078",
+    "submission_url": "https://codeforces.com/contest/861/submission/121445078",
+    "tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Jul/06/2021 10:54"
+  },
   "CF121449492": {
     "contest_id": 861,
     "language": "GNU C++14",
