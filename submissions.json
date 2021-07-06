@@ -1,4 +1,23 @@
 {
+  "CF121449492": {
+    "contest_id": 861,
+    "language": "GNU C++14",
+    "path": "codeforces\\861\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Polycarp's phone book",
+    "problem_url": "https://codeforces.com/contest/861/problem/D",
+    "submission_id": "CF121449492",
+    "submission_url": "https://codeforces.com/contest/861/submission/121449492",
+    "tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "Jul/06/2021 12:05"
+  },
   "CF121451090": {
     "contest_id": 861,
     "language": "GNU C++14",
