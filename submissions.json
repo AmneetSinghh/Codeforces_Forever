@@ -1,4 +1,21 @@
 {
+  "CF121443715": {
+    "contest_id": 861,
+    "language": "GNU C++14",
+    "path": "codeforces\\861\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "k-rounding",
+    "problem_url": "https://codeforces.com/contest/861/problem/A",
+    "submission_id": "CF121443715",
+    "submission_url": "https://codeforces.com/contest/861/submission/121443715",
+    "tags": [
+      "math",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Jul/06/2021 10:28"
+  },
   "CF121445078": {
     "contest_id": 861,
     "language": "GNU C++14",
