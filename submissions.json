@@ -1,4 +1,21 @@
 {
+  "CF122076929": {
+    "contest_id": 1546,
+    "language": "GNU C++14",
+    "path": "codeforces\\1546\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "AquaMoon and Two Arrays",
+    "problem_url": "https://codeforces.com/contest/1546/problem/A",
+    "submission_id": "CF122076929",
+    "submission_url": "https://codeforces.com/contest/1546/submission/122076929",
+    "tags": [
+      "brute force",
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Jul/11/2021 19:42"
+  },
   "CF122453821": {
     "contest_id": 1550,
     "language": "GNU C++14",
